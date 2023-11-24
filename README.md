@@ -13,35 +13,35 @@ Spring Security types in this project : <br>
 
 <h4>Login page</h4>
 
-<img src="caps/1.PNG">
+<img src="Caps/1.PNG">
 
 <br>
 
 
 <h4>SecurityConfig.java</h4>
 
-<img src="caps/SecConfig.PNG">
+<img src="Caps/SecConfig.PNG">
 
 <br>
 <h4>SecurityController.java</h4>
 
-<img src="caps/SecController.PNG">
+<img src="Caps/secController.PNG">
 
 <br>
 
 <h4>Login.html</h4>
 
-<img src="caps/loginHtml.PNG">
+<img src="Caps/loginHtml.PNG">
 
 <br>
 <h4>notAuthorized page</h4>
 
-<img src="caps/notAuthorized.PNG">
+<img src="Caps/notAuthorized.PNG">
 
 <br>
 <h4>notAuthorized.html</h4>
 
-<img src="caps/notAuthorized.html.PNG">
+<img src="Caps/notAuthorized.html.PNG">
 
 <hr>
 
@@ -50,14 +50,14 @@ Spring Security types in this project : <br>
 
 <h4>SecurityConfigJDBC.java</h4>
 
-<img src="caps/jdbcConfig.png">
+<img src="Caps/jdbcConfig.PNG">
 
 <br>
 
 <h4>application.properties</h4>
 
 
-<img src="caps/prop.png">
+<img src="Caps/prop.PNG">
 
 <br>
 
@@ -65,35 +65,35 @@ Pour créer (users and authorities) dans notre base de données nous allons cré
 
 <h4>schema.sql</h4>
 
-<img src="caps/schemaSql.png">
+<img src="Caps/schemaSql.PNG">
 
 <br>
 
 Création des utilisateurs et définir les roles
 
-<img src="caps/commandLine.png">
+<img src="Caps/commandLine.PNG">
 
 <br>
 Nous allons utiliser un controlleur pour la gestion des paths de "login" et "notAuthorized"
 <h4>SecurityController.java</h4>
 
-<img src="caps/secController2.PNG" alt="">
+<img src="Caps/secController2.PNG" >
 
 <br>
 <h4>Login.html</h4>
 
-<img src="caps/loginHtml.PNG" alt="">
+<img src="Caps/loginHtml.PNG" >
 
 <br>
 <h4>notAuthorized page</h4>
 
-<img src="caps/notAuthorized.PNG">
+<img src="Caps/notAuthorized.PNG">
 
 <br>
 Lorsqu'on demarre l'application nous avons la page "login"
 <h4>1- Login page</h4>
 
-<img src="caps/1.PNG" alt="">
+<img src="Caps/1.PNG" >
 
 <br>
 
@@ -102,7 +102,7 @@ Lorsqu'on demarre l'application nous avons la page "login"
 <br>
 Pour UserDetailsService Authentication nous devrons ajouter les packages: "entities, repositories et services"
 
-<img src="caps/packages.png">
+<img src="Caps/packages.PNG">
 
 <br>
 
@@ -110,13 +110,13 @@ Pour AppUser:
 
 <h4>AppUser.java</h4>
 
-<img src="caps/appUser.png">
+<img src="Caps/AppUser.PNG">
 
 <br>
 
 <h4>AppUserRepository.java</h4>
 
-<img src="caps/appUserRep.png">
+<img src="Caps/AppUserRep.PNG">
 
 
 <br>
@@ -125,13 +125,13 @@ Pour AppRole:
 
 <h4>AppRole.java</h4>
 
-<img src="caps/appRole.png">
+<img src="Caps/AppRole.PNG">
 
 <br>
 
 <h4>AppRoleRepository.java</h4>
 
-<img src="caps/appRoleRep.png">
+<img src="Caps/AppRoleRep.PNG">
 
 <br>
 
@@ -139,22 +139,22 @@ Pour les services:
 
 <h4>AccountService.java</h4>
 
-<img src="caps/accService.png">
+<img src="Caps/accService.PNG">
 
 <br>
 
 L'implementation des services :
 
-<img src="caps/impl1.png">
+<img src="Caps/impl1.PNG">
 
-<img src="caps/impl2.png">
+<img src="Caps/impl2.PNG">
 
 
 <br>
 
 <h4>UserDetailsServiceImpl.java</h4>
 
-<img src="caps/userImpl.png">
+<img src="Caps/userImpl.PNG">
 
 <br>
 
@@ -162,14 +162,14 @@ Pour Security Config nous allons utiliser passwordEncoder et SecurityFilterChain
 
 <h4>SecurityConfigUser.java</h4>
 
-<img src="caps/SecConfigUser.png">
+<img src="Caps/SecConfigUser.PNG">
 
 <br>
 
 Définir les roles ou les autorisations:
 <h4>PatientController.java</h4>
 
-<img src="caps/patientController.png">
+<img src="Caps/patientController.PNG">
 
 <br>
 
@@ -177,13 +177,13 @@ Test:
 
 <h4>CommandLineRunnerUserDetails</h4>
 
-<img src="caps/commandLineUser.png">
+<img src="Caps/commandLineUser.PNG">
 
 <br>
 
 <h4>SecurityRestController.java</h4>
 
-<img src="caps/secRest.png">
+<img src="Caps/secRest.PNG">
 
 <br>
 
@@ -191,4 +191,4 @@ Message d'erreur pour les tentatives d'authentification échouées:
 
 <h4>login.html</h4>
 
-<img src="caps/errorMsg.png">
+<img src="Caps/errorMsg.PNG">
