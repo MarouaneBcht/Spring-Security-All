@@ -192,3 +192,4 @@ Message d'erreur pour les tentatives d'authentification échouées:
 <h4>login.html</h4>
 
 <img src="caps/errorMsg.png">
+<img src="caps/errorMsg.png">
